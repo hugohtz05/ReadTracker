@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReadTracker</title>
+    <link rel="icon" href="📚" type="📚" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="title">ReadTracker</h1>
+    <div class="buttonContainer">
+      <button class="btn" id="openModalBtn">Add new book</button>
+    </div>
+
+    <div id="formForAddBook" class="formForAddBook">
+      <div class="formForAddBook-content">
+        <span class="close">&times;</span>
+        <h2>Add new book</h2>
+        <input type="text" placeholder="Title" id="bookTitle" />
+        <input type="text" placeholder="Author" id="bookAuthor" />
+        <input type="number" placeholder="Pages" id="bookPages" />
+        <input type="text" placeholder="Image URL" id="bookImageUrl" />
+        <div>
+          <p>Have you read?</p>
+          <input type="checkbox" id="bookRead" />
+        </div>
+        <button class="submitButton" id="submitBtn">Submit</button>
+      </div>
+    </div>
+
+    <h2 class="book-list-title">Book List</h2>
+
+    <div id="bookList" class="book-list"></div>
+
+    <div id="github-button">
+      <a
+        href="https://github.com/votre-utilisateur/votre-depot"
+        target="_blank"
+      >
+        Code available on GitHub
+      </a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

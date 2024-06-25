@@ -10,7 +10,7 @@ body {
 }
 
 #title {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
   text-align: center;
   padding: 20px;
   font-size: 36px;
@@ -74,7 +74,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
-  max-width: 100%; /* Limit field width */
+  max-width: 100%;
 }
 
 .formForAddBook-content input[type="checkbox"] {
@@ -125,9 +125,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 14px rgb(0 0 0 / 10%);
-  width: calc(
-    33.33% - 20px
-  ); /* Three cards per row with 20px gap between them */
+  width: calc(33.33% - 20px);
   text-align: center;
   transition: transform 0.3s ease;
 }
@@ -152,13 +150,13 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
   margin-bottom: 10px;
-  max-width: 100%; /* Limit title width */
+  max-width: 100%;
 }
 
 .book-details p {
   font-size: 14px;
   margin-bottom: 10px;
-  max-width: 100%; /* Limit other details width */
+  max-width: 100%;
 }
 
 .delete-btn {
